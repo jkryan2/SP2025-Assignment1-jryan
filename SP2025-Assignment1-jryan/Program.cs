@@ -10,6 +10,8 @@ namespace SP2025_Assignment1_jryan
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
+            Console.WriteLine("Hello World!");
+
             app.Run();
         }
     }
